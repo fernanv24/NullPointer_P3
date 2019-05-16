@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>OcioUGR: La agenda cultural de la UGR</title>
+    <meta name="author" content="Grupo NullPointer de DIU3">
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/EventoX.css" rel="stylesheet">
+	 <link rel="stylesheet" href="../css/all.css">
+	 <link href="https://fonts.googleapis.com/css?family=Concert+One|Roboto|Nunito|Exo+2" rel="stylesheet">
+  </head>
+  <body class="bg-lightcoral">
+
+  <div class="container-fluid">
+
+			<!--Cabecera-->
+			<div class="row bg-indianred">
+				<div class="col-6 col-md-2">
+					<img class="img-menu" alt="Bootstrap Image Preview" src="../img/logo_ugr.png">
+				</div>
+				<div class="col-6 col-md-10">
+						<div class="row">
+							<div class="col-12 col-sm-9 centrado">
+								<h1>Ocio UGR</h1>
+							</div>
+						</div>
+				</div>
+			</div>
+
+			<div class="row bottom-buffer bg-darkred snow">
+				<div class="col-4 col-lg-2">
+					<a href="../index.html">Inicio</a>
+					<i class="fa fa-home align-middle"></i>
+				</div>
+				<div class="col-4 col-lg-2">
+					<a href="Eventos.html">Eventos</a>
+					<i class="fa fa-th-large align-middle"></i>
+				</div>
+				<div class="col-4 col-lg-2">
+					<a href="Promocionate.html">Promociónate</a>
+					<i class="fas fa-award"></i>
+				</div>
+				<div id="enlace_inicio" class="col-6 col-lg-3">
+					<a href="InicioSesion.html">Inicio Sesión</a>
+					<i class="fas fa-users"></i>
+				</div>
+				<div class="col-6 col-lg-3">
+					<a href="#">English</a>
+					<i class="fas fa-language"></i>
+				</div>
+			</div>
+			<!--Fin Cabecera-->
+
+
+
+	<div class="row">
+		<div class="col-12">
+			<h2 class="text-center">
+				Título del evento
+			</h2>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-6 col-md-5">
+			<p>Información del evento con la planificación, la organización, motivación para el evento, recomendaciones, aforo máximo, información sobre si hace falta reserva o algún procedimiento anterior a la asistencia o cualquier tipo de información que quiera incluir el organizador del evento.</p>
+		</div>
+		<div class="col-6 col-md-5">
+			<img class="img-fill" alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
+		</div>
+		<div class="col-md-1"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-1"></div>
+		<div class="col-12 col-md-11">
+			 <ul>
+			  <li><strong>Precio:</strong> precio</li>
+			  <li><strong>Fecha:</strong> fecha del evento</li>
+			  <li><strong>Localización:</strong> localización del evento</li>
+				<li><strong>Web evento:</strong> página web del evento</li>
+				<li><strong>Link grupo de telegram:</strong> <a href="#">link grupo de telegram</a></li>
+				<li> <a href="#"> Compartir evento </a></li>
+				<li><button id="aniadir_evento" onclick="aniadir_evento()" class="btn boton">Añade este evento a tu agenda</button></li>
+			</ul> 		
+		</div>
+	</div>
+	<div class="row">
+	<div class="col-md-2"></div>
+		<div class="col-12 col-md-8">
+				<video class="img-fill">
+					<source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+				</video> 
+		</div>
+	<div class="col-md-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-1"></div>
+		<div class="col-10">
+			<div class="row">
+				<h3 class="izda">
+					Comentarios
+				</h3>
+			</div>
+			<form role="form">
+				<div class="form-group">
+					 
+					<label for="exampleInputEmail1">
+						Email:
+					</label>
+					<input type="email" class="form-control" id="exampleInputEmail1">
+<label for="exampleInputEmail1">
+						Nombre:
+					</label>
+					<input type="text" class="form-control bottom-buffer" id="exampleInputAsunto">
+					<textarea class="form-control bottom-buffer" id="exampleInputContenido"></textarea>
+				</div>
+				<button type="submit" class="btn boton">
+					Enviar
+				</button>
+			</form>
+		</div>
+		<div class="col-1"></div>
+	</div>
+
+	<!--Footer-->
+	<footer class="row bg-indianred snow">
+		<div class="col-lg-1"></div>
+		<div class="col-12 col-lg-4" >	
+			&copy; 2019 Fernando Villalba & Andrés Fernández
+		</div>
+
+		<div class="col-6 col-lg-3">
+			<a href="./SobreNosotros.html">Sobre Nosotros</a>
+			<i class="fa fa-book"></i>
+		</div>
+
+		<div class="col-6 col-lg-3">
+			<a href="./Contactanos.html">Contáctanos</a>
+			<i class="fa fa-inbox"></i>
+		</div>
+
+	</footer>
+
+</div>
+<!--fin del container-->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+  </body>
+</html>
